@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item>Select Vitamin D Sources</item>
+        <item>Milk</item>
+        <item>Egg</item>
+        <item>Fish</item>
+        <item>Sun</item>
+    </string-array>
+</resources>

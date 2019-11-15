@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guide2</string>
+    <string name="txtMovie">Movies</string>
+    <string name="rdFirst">Dora</string>
+    <string name="rdSecond">SpiderMan</string>
+    <string name="rdThird">Kid_King</string>
+    <string name="btnSelect">SELECT</string>
+    <string name="txtSelection">Your Selection</string>
+    <string name="txtLG2">Guide 2 Basic View</string>
+    <string name="movie_hint">Movies</string>
+
+</resources>

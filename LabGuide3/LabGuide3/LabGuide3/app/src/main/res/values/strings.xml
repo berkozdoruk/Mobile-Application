@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LabGuide3</string>
+    <string name="tvAnimation">Vitamins</string>
+    <string name="btnChange">Change Background</string>
+    <string name="imvHp">Characters</string>
+    <string name="tvAlpha">VitaminC</string>
+    <string name="tagName">Enter your name</string>
+    <string name="btnClean">Clean</string>
+    <string name="check">Sales</string>
+</resources>

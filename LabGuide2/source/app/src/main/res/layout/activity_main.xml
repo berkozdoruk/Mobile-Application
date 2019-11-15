@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtG2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLG2"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/txtMovie"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/txtMovie"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:text="@string/txtMovie" />
+
+    <RadioGroup
+        android:id="@+id/rdbtngrp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <RadioButton
+            android:id="@+id/rdbtnFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkedRadio"
+            android:text="@string/rdFirst"
+            android:textAlignment="center"
+            tools:text="@string/rdFirst" />
+
+        <RadioButton
+            android:id="@+id/rdbtnSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkedRadio"
+            android:text="@string/rdSecond"
+            android:textAlignment="center" />
+
+        <RadioButton
+            android:id="@+id/rdbtnThird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkedRadio"
+            android:text="@string/rdThird"
+            android:textAlignment="center" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnApply"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:onClick="display"
+        android:text="@string/btnSelect" />
+
+    <TextView
+        android:id="@+id/txtSelected"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="@string/txtSelection"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/movie_hint"
+        app:srcCompat="@drawable/movie" />
+
+    <SeekBar
+        android:id="@+id/sbChange"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:progress="4"
+        android:max="15"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ParcableExample</string>
+    <string name="parceabletxt">Parcable Example</string>
+    <string name="secondButton">SECOND ACTIVITY</string>
+    <string name="thirdBtn" >THIRD ACTIVITY</string>
+    <string-array name="books">
+        <item>ART</item>
+        <item>SCIENCE</item>
+        <item>MUSIC</item>
+    </string-array>
+</resources>

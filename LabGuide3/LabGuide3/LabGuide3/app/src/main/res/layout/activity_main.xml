@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vitamins1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAnimation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAnimation"
+        android:textAlignment="center"
+        android:textColor="#FFFFFEFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChangeBackg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_purple"
+        android:text="@string/btnChange"
+        android:textAlignment="center" />
+
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/imvHp"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/vitamins2" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvAnimation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAlpha"
+        android:textAlignment="center"
+        android:textColor="#FFFFFEFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FF7C2C4A"
+        android:entries="@array/types"
+        android:visibility="invisible" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:background="@color/colorAccent"
+                android:hint="@string/tagName"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                style="?android:attr/starStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#FFD96691"
+                android:text="@string/check" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnClean"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="onClick"
+        android:text="@string/btnClean" />
+
+</LinearLayout>
